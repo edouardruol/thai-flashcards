@@ -1,4 +1,4 @@
-const CACHE_NAME = "thai-flashcards-v1";
+const CACHE_NAME = "thai-flashcards-v2";
 
 const PRECACHE_URLS = [
   "./",
