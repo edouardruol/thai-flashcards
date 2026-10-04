@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Thai Flashcards</title>
+
+<link rel="manifest" href="manifest.json" />
+<link rel="apple-touch-icon" href="icons/icon-180.png" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="apple-mobile-web-app-title" content="Thai" />
+<meta name="theme-color" content="#7a3b2e" />
+
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<main id="dashboard" class="view">
+  <header class="dashboard-header">
+    <h1>อักษรไทย</h1>
+    <p class="subtitle">Thai Flashcards</p>
+  </header>
+
+  <button id="review-btn" class="primary-btn">
+    Réviser <span id="due-count">0</span> carte(s)
+  </button>
+
+  <div class="stats">
+    <div class="stat-tile">
+      <span class="stat-value" id="stat-new">0</span>
+      <span class="stat-label">Nouveau</span>
+    </div>
+    <div class="stat-tile">
+      <span class="stat-value" id="stat-learning">0</span>
+      <span class="stat-label">En cours</span>
+    </div>
+    <div class="stat-tile">
+      <span class="stat-value" id="stat-mastered">0</span>
+      <span class="stat-label">Maîtrisé</span>
+    </div>
+  </div>
+
+  <section class="browse">
+    <h2>Parcourir</h2>
+    <div class="browse-tabs" id="browse-tabs">
+      <button class="browse-tab active" data-category="consonant">Consonnes</button>
+      <button class="browse-tab" data-category="vowel">Voyelles</button>
+      <button class="browse-tab" data-category="tone">Tons</button>
+    </div>
+    <div id="browse-list" class="browse-list"></div>
+  </section>
+</main>
+
+<main id="review" class="view hidden">
+  <button id="exit-review" class="icon-btn" aria-label="Fermer">&times;</button>
+
+  <div class="card-area">
+    <div class="card" id="flashcard">
+      <div class="card-front">
+        <div class="glyph" id="card-glyph"></div>
+        <p class="tap-hint" id="tap-hint">Touche pour retourner</p>
+      </div>
+      <div class="card-back hidden" id="card-back">
+        <div class="name-row">
+          <span class="name-thai" id="card-name-thai"></span>
+          <span class="name-romanized" id="card-name-romanized"></span>
+          <span class="class-badge hidden" id="card-class"></span>
+        </div>
+        <ul class="examples" id="card-examples"></ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="grade-buttons hidden" id="grade-buttons">
+    <button class="grade-btn grade-again" data-grade="again">Again</button>
+    <button class="grade-btn grade-hard" data-grade="hard">Hard</button>
+    <button class="grade-btn grade-good" data-grade="good">Good</button>
+    <button class="grade-btn grade-easy" data-grade="easy">Easy</button>
+  </div>
+
+  <div class="done-screen hidden" id="done-screen">
+    <p>Terminé pour aujourd'hui</p>
+    <button id="back-to-dashboard" class="primary-btn">Retour</button>
+  </div>
+</main>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

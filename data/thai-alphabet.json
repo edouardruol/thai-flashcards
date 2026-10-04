@@ -1,0 +1,1806 @@
+{
+  "consonants": [
+    {
+      "id": "gor-gai",
+      "glyph": "ก",
+      "nameThai": "ก ไก่",
+      "nameRomanized": "gor gai",
+      "nameMeaningFr": "poulet",
+      "class": "mid",
+      "initialSound": "g",
+      "finalSound": "k",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "ไก่",
+          "romanized": "gài",
+          "meaningFr": "poulet"
+        },
+        {
+          "thai": "กา",
+          "romanized": "gaa",
+          "meaningFr": "corbeau / théière"
+        },
+        {
+          "thai": "กิน",
+          "romanized": "gin",
+          "meaningFr": "manger"
+        },
+        {
+          "thai": "เก้าอี้",
+          "romanized": "gâo-îi",
+          "meaningFr": "chaise"
+        }
+      ]
+    },
+    {
+      "id": "khor-khai",
+      "glyph": "ข",
+      "nameThai": "ข ไข่",
+      "nameRomanized": "khor khai",
+      "nameMeaningFr": "œuf",
+      "class": "high",
+      "initialSound": "k",
+      "finalSound": "k",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "ไข่",
+          "romanized": "khài",
+          "meaningFr": "œuf"
+        },
+        {
+          "thai": "ขา",
+          "romanized": "khǎa",
+          "meaningFr": "jambe"
+        },
+        {
+          "thai": "ของ",
+          "romanized": "khǎwng",
+          "meaningFr": "chose, objet"
+        },
+        {
+          "thai": "ขาว",
+          "romanized": "khǎao",
+          "meaningFr": "blanc"
+        }
+      ]
+    },
+    {
+      "id": "khor-khuat",
+      "glyph": "ฃ",
+      "nameThai": "ฃ ขวด",
+      "nameRomanized": "khor khuat",
+      "nameMeaningFr": "bouteille (lettre obsolète)",
+      "class": "high",
+      "initialSound": "k",
+      "finalSound": "k",
+      "obsolete": true,
+      "examples": [
+        {
+          "thai": "ขวด",
+          "romanized": "kùuat",
+          "meaningFr": "bouteille (s'écrit avec ข aujourd'hui)"
+        }
+      ]
+    },
+    {
+      "id": "khor-khwai",
+      "glyph": "ค",
+      "nameThai": "ค ควาย",
+      "nameRomanized": "khor khwai",
+      "nameMeaningFr": "buffle",
+      "class": "low",
+      "initialSound": "k",
+      "finalSound": "k",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "ควาย",
+          "romanized": "khwaai",
+          "meaningFr": "buffle"
+        },
+        {
+          "thai": "คน",
+          "romanized": "khon",
+          "meaningFr": "personne"
+        },
+        {
+          "thai": "ครู",
+          "romanized": "khruu",
+          "meaningFr": "professeur"
+        },
+        {
+          "thai": "คิด",
+          "romanized": "khít",
+          "meaningFr": "penser"
+        }
+      ]
+    },
+    {
+      "id": "khor-khon",
+      "glyph": "ฅ",
+      "nameThai": "ฅ คน",
+      "nameRomanized": "khor khon",
+      "nameMeaningFr": "personne (lettre obsolète)",
+      "class": "low",
+      "initialSound": "k",
+      "finalSound": "k",
+      "obsolete": true,
+      "examples": [
+        {
+          "thai": "คน",
+          "romanized": "khon",
+          "meaningFr": "personne (s'écrit avec ค aujourd'hui)"
+        }
+      ]
+    },
+    {
+      "id": "khor-rakhang",
+      "glyph": "ฆ",
+      "nameThai": "ฆ ระฆัง",
+      "nameRomanized": "khor rakhang",
+      "nameMeaningFr": "cloche",
+      "class": "low",
+      "initialSound": "k",
+      "finalSound": "k",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "ระฆัง",
+          "romanized": "rá-khang",
+          "meaningFr": "cloche"
+        },
+        {
+          "thai": "ฆ่า",
+          "romanized": "khâa",
+          "meaningFr": "tuer"
+        }
+      ]
+    },
+    {
+      "id": "ngor-ngu",
+      "glyph": "ง",
+      "nameThai": "ง งู",
+      "nameRomanized": "ngor ngu",
+      "nameMeaningFr": "serpent",
+      "class": "low",
+      "initialSound": "ng",
+      "finalSound": "ng",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "งู",
+          "romanized": "nguu",
+          "meaningFr": "serpent"
+        },
+        {
+          "thai": "เงิน",
+          "romanized": "ngern",
+          "meaningFr": "argent"
+        },
+        {
+          "thai": "ง่วง",
+          "romanized": "ngûang",
+          "meaningFr": "somnolent"
+        },
+        {
+          "thai": "งาม",
+          "romanized": "ngaam",
+          "meaningFr": "beau"
+        }
+      ]
+    },
+    {
+      "id": "jor-jaan",
+      "glyph": "จ",
+      "nameThai": "จ จาน",
+      "nameRomanized": "jor jaan",
+      "nameMeaningFr": "assiette",
+      "class": "mid",
+      "initialSound": "j",
+      "finalSound": "t",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "จาน",
+          "romanized": "jaan",
+          "meaningFr": "assiette"
+        },
+        {
+          "thai": "ใจ",
+          "romanized": "jai",
+          "meaningFr": "cœur"
+        },
+        {
+          "thai": "จบ",
+          "romanized": "jòp",
+          "meaningFr": "finir"
+        },
+        {
+          "thai": "จริง",
+          "romanized": "jing",
+          "meaningFr": "vrai"
+        }
+      ]
+    },
+    {
+      "id": "chor-ching",
+      "glyph": "ฉ",
+      "nameThai": "ฉ ฉิ่ง",
+      "nameRomanized": "chor ching",
+      "nameMeaningFr": "petites cymbales",
+      "class": "high",
+      "initialSound": "ch",
+      "finalSound": "t",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "ฉิ่ง",
+          "romanized": "chìng",
+          "meaningFr": "petites cymbales"
+        },
+        {
+          "thai": "ฉัน",
+          "romanized": "chǎn",
+          "meaningFr": "je / moi (au féminin)"
+        },
+        {
+          "thai": "ฉลาด",
+          "romanized": "chà-làat",
+          "meaningFr": "intelligent"
+        }
+      ]
+    },
+    {
+      "id": "chor-chang",
+      "glyph": "ช",
+      "nameThai": "ช ช้าง",
+      "nameRomanized": "chor chang",
+      "nameMeaningFr": "éléphant",
+      "class": "low",
+      "initialSound": "ch",
+      "finalSound": "t",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "ช้าง",
+          "romanized": "cháang",
+          "meaningFr": "éléphant"
+        },
+        {
+          "thai": "ชา",
+          "romanized": "chaa",
+          "meaningFr": "thé"
+        },
+        {
+          "thai": "ชอบ",
+          "romanized": "châwp",
+          "meaningFr": "aimer bien"
+        },
+        {
+          "thai": "ช่วย",
+          "romanized": "chûay",
+          "meaningFr": "aider"
+        }
+      ]
+    },
+    {
+      "id": "sor-so",
+      "glyph": "ซ",
+      "nameThai": "ซ โซ่",
+      "nameRomanized": "sor so",
+      "nameMeaningFr": "chaîne",
+      "class": "low",
+      "initialSound": "s",
+      "finalSound": "t",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "โซ่",
+          "romanized": "sôo",
+          "meaningFr": "chaîne"
+        },
+        {
+          "thai": "ซื้อ",
+          "romanized": "súue",
+          "meaningFr": "acheter"
+        },
+        {
+          "thai": "ซ้าย",
+          "romanized": "sáai",
+          "meaningFr": "gauche"
+        }
+      ]
+    },
+    {
+      "id": "chor-choe",
+      "glyph": "ฌ",
+      "nameThai": "ฌ เฌอ",
+      "nameRomanized": "chor choe",
+      "nameMeaningFr": "arbre (littéraire)",
+      "class": "low",
+      "initialSound": "ch",
+      "finalSound": "t",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "เฌอ",
+          "romanized": "choe",
+          "meaningFr": "arbre (mot littéraire, rare)"
+        }
+      ]
+    },
+    {
+      "id": "yor-ying",
+      "glyph": "ญ",
+      "nameThai": "ญ หญิง",
+      "nameRomanized": "yor ying",
+      "nameMeaningFr": "femme",
+      "class": "low",
+      "initialSound": "y",
+      "finalSound": "n",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "หญิง",
+          "romanized": "yǐng",
+          "meaningFr": "femme"
+        },
+        {
+          "thai": "ใหญ่",
+          "romanized": "yài",
+          "meaningFr": "grand"
+        }
+      ]
+    },
+    {
+      "id": "dor-chada",
+      "glyph": "ฎ",
+      "nameThai": "ฎ ชฎา",
+      "nameRomanized": "dor chada",
+      "nameMeaningFr": "diadème",
+      "class": "mid",
+      "initialSound": "d",
+      "finalSound": "t",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "ชฎา",
+          "romanized": "chá-daa",
+          "meaningFr": "diadème (coiffe de danse classique)"
+        }
+      ]
+    },
+    {
+      "id": "tor-patak",
+      "glyph": "ฏ",
+      "nameThai": "ฏ ปฏัก",
+      "nameRomanized": "tor patak",
+      "nameMeaningFr": "aiguillon",
+      "class": "mid",
+      "initialSound": "dt",
+      "finalSound": "t",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "ปฏัก",
+          "romanized": "bpà-dtàk",
+          "meaningFr": "aiguillon (bâton pointu)"
+        }
+      ]
+    },
+    {
+      "id": "thor-than",
+      "glyph": "ฐ",
+      "nameThai": "ฐ ฐาน",
+      "nameRomanized": "thor than",
+      "nameMeaningFr": "socle",
+      "class": "high",
+      "initialSound": "t",
+      "finalSound": "t",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "ฐาน",
+          "romanized": "tǎan",
+          "meaningFr": "socle, base"
+        }
+      ]
+    },
+    {
+      "id": "thor-montho",
+      "glyph": "ฑ",
+      "nameThai": "ฑ มณโฑ",
+      "nameRomanized": "thor montho",
+      "nameMeaningFr": "Montho (personnage du Ramakien)",
+      "class": "low",
+      "initialSound": "t",
+      "finalSound": "t",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "มณฑป",
+          "romanized": "mon-dtòp",
+          "meaningFr": "pavillon (architecture de temple)"
+        }
+      ]
+    },
+    {
+      "id": "thor-phuthao",
+      "glyph": "ฒ",
+      "nameThai": "ฒ ผู้เฒ่า",
+      "nameRomanized": "thor phuthao",
+      "nameMeaningFr": "vieillard",
+      "class": "low",
+      "initialSound": "t",
+      "finalSound": "t",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "ผู้เฒ่า",
+          "romanized": "pûu-tâo",
+          "meaningFr": "vieillard"
+        }
+      ]
+    },
+    {
+      "id": "nor-nen",
+      "glyph": "ณ",
+      "nameThai": "ณ เณร",
+      "nameRomanized": "nor nen",
+      "nameMeaningFr": "jeune moine",
+      "class": "low",
+      "initialSound": "n",
+      "finalSound": "n",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "เณร",
+          "romanized": "nen",
+          "meaningFr": "jeune moine novice"
+        },
+        {
+          "thai": "คุณ",
+          "romanized": "khun",
+          "meaningFr": "vous (politesse) / monsieur, madame"
+        }
+      ]
+    },
+    {
+      "id": "dor-dek",
+      "glyph": "ด",
+      "nameThai": "ด เด็ก",
+      "nameRomanized": "dor dek",
+      "nameMeaningFr": "enfant",
+      "class": "mid",
+      "initialSound": "d",
+      "finalSound": "t",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "เด็ก",
+          "romanized": "dèk",
+          "meaningFr": "enfant"
+        },
+        {
+          "thai": "ดี",
+          "romanized": "dii",
+          "meaningFr": "bien"
+        },
+        {
+          "thai": "ดู",
+          "romanized": "duu",
+          "meaningFr": "regarder"
+        },
+        {
+          "thai": "ดาว",
+          "romanized": "daao",
+          "meaningFr": "étoile"
+        }
+      ]
+    },
+    {
+      "id": "tor-tao",
+      "glyph": "ต",
+      "nameThai": "ต เต่า",
+      "nameRomanized": "tor tao",
+      "nameMeaningFr": "tortue",
+      "class": "mid",
+      "initialSound": "dt",
+      "finalSound": "t",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "เต่า",
+          "romanized": "dtào",
+          "meaningFr": "tortue"
+        },
+        {
+          "thai": "ตา",
+          "romanized": "dtaa",
+          "meaningFr": "œil / grand-père"
+        },
+        {
+          "thai": "ต้ม",
+          "romanized": "dtôm",
+          "meaningFr": "faire bouillir"
+        },
+        {
+          "thai": "ตลาด",
+          "romanized": "dtà-làat",
+          "meaningFr": "marché"
+        }
+      ]
+    },
+    {
+      "id": "thor-thung",
+      "glyph": "ถ",
+      "nameThai": "ถ ถุง",
+      "nameRomanized": "thor thung",
+      "nameMeaningFr": "sac",
+      "class": "high",
+      "initialSound": "t",
+      "finalSound": "t",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "ถุง",
+          "romanized": "tǔng",
+          "meaningFr": "sac"
+        },
+        {
+          "thai": "ถาม",
+          "romanized": "tǎam",
+          "meaningFr": "demander"
+        },
+        {
+          "thai": "ถูก",
+          "romanized": "tùuk",
+          "meaningFr": "correct / pas cher"
+        }
+      ]
+    },
+    {
+      "id": "thor-thahan",
+      "glyph": "ท",
+      "nameThai": "ท ทหาร",
+      "nameRomanized": "thor thahan",
+      "nameMeaningFr": "soldat",
+      "class": "low",
+      "initialSound": "t",
+      "finalSound": "t",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "ทหาร",
+          "romanized": "tá-hǎan",
+          "meaningFr": "soldat"
+        },
+        {
+          "thai": "ทาง",
+          "romanized": "taang",
+          "meaningFr": "chemin"
+        },
+        {
+          "thai": "ทำ",
+          "romanized": "tam",
+          "meaningFr": "faire"
+        },
+        {
+          "thai": "ทะเล",
+          "romanized": "tá-lee",
+          "meaningFr": "mer"
+        }
+      ]
+    },
+    {
+      "id": "thor-thong",
+      "glyph": "ธ",
+      "nameThai": "ธ ธง",
+      "nameRomanized": "thor thong",
+      "nameMeaningFr": "drapeau",
+      "class": "low",
+      "initialSound": "t",
+      "finalSound": "t",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "ธง",
+          "romanized": "tong",
+          "meaningFr": "drapeau"
+        },
+        {
+          "thai": "ธรรมดา",
+          "romanized": "tam-má-daa",
+          "meaningFr": "normal, ordinaire"
+        }
+      ]
+    },
+    {
+      "id": "nor-nu",
+      "glyph": "น",
+      "nameThai": "น หนู",
+      "nameRomanized": "nor nu",
+      "nameMeaningFr": "souris",
+      "class": "low",
+      "initialSound": "n",
+      "finalSound": "n",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "หนู",
+          "romanized": "nǔu",
+          "meaningFr": "souris"
+        },
+        {
+          "thai": "นา",
+          "romanized": "naa",
+          "meaningFr": "rizière"
+        },
+        {
+          "thai": "น้ำ",
+          "romanized": "náam",
+          "meaningFr": "eau"
+        },
+        {
+          "thai": "นก",
+          "romanized": "nók",
+          "meaningFr": "oiseau"
+        }
+      ]
+    },
+    {
+      "id": "bor-baimai",
+      "glyph": "บ",
+      "nameThai": "บ ใบไม้",
+      "nameRomanized": "bor baimai",
+      "nameMeaningFr": "feuille",
+      "class": "mid",
+      "initialSound": "b",
+      "finalSound": "p",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "ใบไม้",
+          "romanized": "bai-máai",
+          "meaningFr": "feuille"
+        },
+        {
+          "thai": "บ้าน",
+          "romanized": "bâan",
+          "meaningFr": "maison"
+        },
+        {
+          "thai": "บอก",
+          "romanized": "bàwk",
+          "meaningFr": "dire"
+        },
+        {
+          "thai": "บัตร",
+          "romanized": "bàt",
+          "meaningFr": "carte"
+        }
+      ]
+    },
+    {
+      "id": "por-pla",
+      "glyph": "ป",
+      "nameThai": "ป ปลา",
+      "nameRomanized": "por pla",
+      "nameMeaningFr": "poisson",
+      "class": "mid",
+      "initialSound": "bp",
+      "finalSound": "p",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "ปลา",
+          "romanized": "bplaa",
+          "meaningFr": "poisson"
+        },
+        {
+          "thai": "ไป",
+          "romanized": "bpai",
+          "meaningFr": "aller"
+        },
+        {
+          "thai": "ปู",
+          "romanized": "bpuu",
+          "meaningFr": "crabe"
+        },
+        {
+          "thai": "ประตู",
+          "romanized": "bprà-dtuu",
+          "meaningFr": "porte"
+        }
+      ]
+    },
+    {
+      "id": "phor-phueng",
+      "glyph": "ผ",
+      "nameThai": "ผ ผึ้ง",
+      "nameRomanized": "phor phueng",
+      "nameMeaningFr": "abeille",
+      "class": "high",
+      "initialSound": "p",
+      "finalSound": null,
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "ผึ้ง",
+          "romanized": "pʉ̂ng",
+          "meaningFr": "abeille"
+        },
+        {
+          "thai": "ผม",
+          "romanized": "pǒm",
+          "meaningFr": "je (au masculin) / cheveux"
+        },
+        {
+          "thai": "ผ้า",
+          "romanized": "pâa",
+          "meaningFr": "tissu"
+        }
+      ]
+    },
+    {
+      "id": "for-fa",
+      "glyph": "ฝ",
+      "nameThai": "ฝ ฝา",
+      "nameRomanized": "for fa",
+      "nameMeaningFr": "couvercle",
+      "class": "high",
+      "initialSound": "f",
+      "finalSound": null,
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "ฝา",
+          "romanized": "fǎa",
+          "meaningFr": "couvercle"
+        },
+        {
+          "thai": "ฝน",
+          "romanized": "fǒn",
+          "meaningFr": "pluie"
+        },
+        {
+          "thai": "ฝรั่ง",
+          "romanized": "fà-ràng",
+          "meaningFr": "étranger / goyave"
+        }
+      ]
+    },
+    {
+      "id": "phor-phan",
+      "glyph": "พ",
+      "nameThai": "พ พาน",
+      "nameRomanized": "phor phan",
+      "nameMeaningFr": "plateau cérémoniel",
+      "class": "low",
+      "initialSound": "p",
+      "finalSound": "p",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "พาน",
+          "romanized": "paan",
+          "meaningFr": "plateau cérémoniel"
+        },
+        {
+          "thai": "พ่อ",
+          "romanized": "pâw",
+          "meaningFr": "père"
+        },
+        {
+          "thai": "พูด",
+          "romanized": "pûut",
+          "meaningFr": "parler"
+        },
+        {
+          "thai": "พริก",
+          "romanized": "prík",
+          "meaningFr": "piment"
+        }
+      ]
+    },
+    {
+      "id": "for-fan",
+      "glyph": "ฟ",
+      "nameThai": "ฟ ฟัน",
+      "nameRomanized": "for fan",
+      "nameMeaningFr": "dents",
+      "class": "low",
+      "initialSound": "f",
+      "finalSound": "p",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "ฟัน",
+          "romanized": "fan",
+          "meaningFr": "dents"
+        },
+        {
+          "thai": "ไฟ",
+          "romanized": "fai",
+          "meaningFr": "feu"
+        },
+        {
+          "thai": "ฟัง",
+          "romanized": "fang",
+          "meaningFr": "écouter"
+        }
+      ]
+    },
+    {
+      "id": "phor-samphao",
+      "glyph": "ภ",
+      "nameThai": "ภ สำเภา",
+      "nameRomanized": "phor samphao",
+      "nameMeaningFr": "jonque (bateau à voile)",
+      "class": "low",
+      "initialSound": "p",
+      "finalSound": "p",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "สำเภา",
+          "romanized": "sǎm-pao",
+          "meaningFr": "jonque, navire à voile"
+        },
+        {
+          "thai": "ภาพ",
+          "romanized": "pâap",
+          "meaningFr": "image"
+        },
+        {
+          "thai": "ภาษา",
+          "romanized": "paa-sǎa",
+          "meaningFr": "langue"
+        }
+      ]
+    },
+    {
+      "id": "mor-ma",
+      "glyph": "ม",
+      "nameThai": "ม ม้า",
+      "nameRomanized": "mor ma",
+      "nameMeaningFr": "cheval",
+      "class": "low",
+      "initialSound": "m",
+      "finalSound": "m",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "ม้า",
+          "romanized": "máa",
+          "meaningFr": "cheval"
+        },
+        {
+          "thai": "แม่",
+          "romanized": "mâe",
+          "meaningFr": "mère"
+        },
+        {
+          "thai": "มา",
+          "romanized": "maa",
+          "meaningFr": "venir"
+        },
+        {
+          "thai": "มด",
+          "romanized": "mót",
+          "meaningFr": "fourmi"
+        }
+      ]
+    },
+    {
+      "id": "yor-yak",
+      "glyph": "ย",
+      "nameThai": "ย ยักษ์",
+      "nameRomanized": "yor yak",
+      "nameMeaningFr": "géant, ogre",
+      "class": "low",
+      "initialSound": "y",
+      "finalSound": "y",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "ยักษ์",
+          "romanized": "yák",
+          "meaningFr": "géant, ogre"
+        },
+        {
+          "thai": "ยา",
+          "romanized": "yaa",
+          "meaningFr": "médicament"
+        },
+        {
+          "thai": "ย่าง",
+          "romanized": "yâang",
+          "meaningFr": "griller"
+        },
+        {
+          "thai": "ยิ้ม",
+          "romanized": "yím",
+          "meaningFr": "sourire"
+        }
+      ]
+    },
+    {
+      "id": "ror-ruea",
+      "glyph": "ร",
+      "nameThai": "ร เรือ",
+      "nameRomanized": "ror ruea",
+      "nameMeaningFr": "bateau",
+      "class": "low",
+      "initialSound": "r",
+      "finalSound": "n",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "เรือ",
+          "romanized": "ruea",
+          "meaningFr": "bateau"
+        },
+        {
+          "thai": "รถ",
+          "romanized": "rót",
+          "meaningFr": "voiture"
+        },
+        {
+          "thai": "ร้อน",
+          "romanized": "ráwn",
+          "meaningFr": "chaud"
+        },
+        {
+          "thai": "เรียน",
+          "romanized": "rian",
+          "meaningFr": "étudier"
+        }
+      ]
+    },
+    {
+      "id": "lor-ling",
+      "glyph": "ล",
+      "nameThai": "ล ลิง",
+      "nameRomanized": "lor ling",
+      "nameMeaningFr": "singe",
+      "class": "low",
+      "initialSound": "l",
+      "finalSound": "n",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "ลิง",
+          "romanized": "ling",
+          "meaningFr": "singe"
+        },
+        {
+          "thai": "ลืม",
+          "romanized": "luuem",
+          "meaningFr": "oublier"
+        },
+        {
+          "thai": "เล็ก",
+          "romanized": "lék",
+          "meaningFr": "petit"
+        },
+        {
+          "thai": "ลูก",
+          "romanized": "lûuk",
+          "meaningFr": "enfant / fruit"
+        }
+      ]
+    },
+    {
+      "id": "wor-waen",
+      "glyph": "ว",
+      "nameThai": "ว แหวน",
+      "nameRomanized": "wor waen",
+      "nameMeaningFr": "bague",
+      "class": "low",
+      "initialSound": "w",
+      "finalSound": "w",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "แหวน",
+          "romanized": "wǎen",
+          "meaningFr": "bague"
+        },
+        {
+          "thai": "วัน",
+          "romanized": "wan",
+          "meaningFr": "jour"
+        },
+        {
+          "thai": "ว่าย",
+          "romanized": "wâai",
+          "meaningFr": "nager"
+        }
+      ]
+    },
+    {
+      "id": "sor-sala",
+      "glyph": "ศ",
+      "nameThai": "ศ ศาลา",
+      "nameRomanized": "sor sala",
+      "nameMeaningFr": "pavillon",
+      "class": "high",
+      "initialSound": "s",
+      "finalSound": "t",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "ศาลา",
+          "romanized": "sǎa-laa",
+          "meaningFr": "pavillon"
+        },
+        {
+          "thai": "ศึกษา",
+          "romanized": "sùek-sǎa",
+          "meaningFr": "étudier (formel)"
+        }
+      ]
+    },
+    {
+      "id": "sor-ruesi",
+      "glyph": "ษ",
+      "nameThai": "ษ ฤๅษี",
+      "nameRomanized": "sor ruesi",
+      "nameMeaningFr": "ermite",
+      "class": "high",
+      "initialSound": "s",
+      "finalSound": "t",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "ฤๅษี",
+          "romanized": "rue-sǐi",
+          "meaningFr": "ermite"
+        },
+        {
+          "thai": "อังกฤษ",
+          "romanized": "ang-grìt",
+          "meaningFr": "anglais, Angleterre"
+        }
+      ]
+    },
+    {
+      "id": "sor-suea",
+      "glyph": "ส",
+      "nameThai": "ส เสือ",
+      "nameRomanized": "sor suea",
+      "nameMeaningFr": "tigre",
+      "class": "high",
+      "initialSound": "s",
+      "finalSound": "t",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "เสือ",
+          "romanized": "sǔea",
+          "meaningFr": "tigre"
+        },
+        {
+          "thai": "สวย",
+          "romanized": "sǔay",
+          "meaningFr": "joli"
+        },
+        {
+          "thai": "สี",
+          "romanized": "sǐi",
+          "meaningFr": "couleur"
+        },
+        {
+          "thai": "สอง",
+          "romanized": "sǎwng",
+          "meaningFr": "deux"
+        }
+      ]
+    },
+    {
+      "id": "hor-hip",
+      "glyph": "ห",
+      "nameThai": "ห หีบ",
+      "nameRomanized": "hor hip",
+      "nameMeaningFr": "coffre",
+      "class": "high",
+      "initialSound": "h",
+      "finalSound": null,
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "หีบ",
+          "romanized": "hìip",
+          "meaningFr": "coffre"
+        },
+        {
+          "thai": "หมา",
+          "romanized": "mǎa",
+          "meaningFr": "chien"
+        },
+        {
+          "thai": "หา",
+          "romanized": "hǎa",
+          "meaningFr": "chercher"
+        },
+        {
+          "thai": "ห้อง",
+          "romanized": "hâwng",
+          "meaningFr": "pièce, chambre"
+        }
+      ]
+    },
+    {
+      "id": "lor-chula",
+      "glyph": "ฬ",
+      "nameThai": "ฬ จุฬา",
+      "nameRomanized": "lor chula",
+      "nameMeaningFr": "grand cerf-volant",
+      "class": "low",
+      "initialSound": "l",
+      "finalSound": "n",
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "จุฬา",
+          "romanized": "jù-laa",
+          "meaningFr": "grand cerf-volant (jeu royal)"
+        },
+        {
+          "thai": "กีฬา",
+          "romanized": "gee-laa",
+          "meaningFr": "sport"
+        }
+      ]
+    },
+    {
+      "id": "or-ang",
+      "glyph": "อ",
+      "nameThai": "อ อ่าง",
+      "nameRomanized": "or ang",
+      "nameMeaningFr": "bassine",
+      "class": "mid",
+      "initialSound": "-",
+      "finalSound": null,
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "อ่าง",
+          "romanized": "àang",
+          "meaningFr": "bassine"
+        },
+        {
+          "thai": "อร่อย",
+          "romanized": "a-ràwy",
+          "meaningFr": "délicieux"
+        },
+        {
+          "thai": "อาหาร",
+          "romanized": "aa-hǎan",
+          "meaningFr": "nourriture"
+        }
+      ]
+    },
+    {
+      "id": "hor-nokhuk",
+      "glyph": "ฮ",
+      "nameThai": "ฮ นกฮูก",
+      "nameRomanized": "hor nokhuk",
+      "nameMeaningFr": "hibou",
+      "class": "low",
+      "initialSound": "h",
+      "finalSound": null,
+      "obsolete": false,
+      "examples": [
+        {
+          "thai": "นกฮูก",
+          "romanized": "nók-hûuk",
+          "meaningFr": "hibou"
+        },
+        {
+          "thai": "โรงแรม",
+          "romanized": "roong-raem",
+          "meaningFr": "hôtel (autre mot courant, pour contexte)"
+        }
+      ]
+    }
+  ],
+  "vowels": [
+    {
+      "id": "sara-a",
+      "glyph": "–ะ",
+      "form": "short-a",
+      "nameRomanized": "sara a",
+      "examples": [
+        {
+          "thai": "กะ",
+          "romanized": "gà",
+          "meaningFr": "particule / bol à mesurer"
+        },
+        {
+          "thai": "จะ",
+          "romanized": "jà",
+          "meaningFr": "particule du futur"
+        }
+      ]
+    },
+    {
+      "id": "sara-aa",
+      "glyph": "–า",
+      "form": "long-a",
+      "nameRomanized": "sara aa",
+      "examples": [
+        {
+          "thai": "มา",
+          "romanized": "maa",
+          "meaningFr": "venir"
+        },
+        {
+          "thai": "ตา",
+          "romanized": "dtaa",
+          "meaningFr": "œil"
+        }
+      ]
+    },
+    {
+      "id": "sara-i",
+      "glyph": "–ิ",
+      "form": "short-i",
+      "nameRomanized": "sara i",
+      "examples": [
+        {
+          "thai": "กิน",
+          "romanized": "gin",
+          "meaningFr": "manger"
+        },
+        {
+          "thai": "ปิด",
+          "romanized": "bpìt",
+          "meaningFr": "fermer"
+        }
+      ]
+    },
+    {
+      "id": "sara-ii",
+      "glyph": "–ี",
+      "form": "long-i",
+      "nameRomanized": "sara ii",
+      "examples": [
+        {
+          "thai": "ดี",
+          "romanized": "dii",
+          "meaningFr": "bien"
+        },
+        {
+          "thai": "มีด",
+          "romanized": "mîit",
+          "meaningFr": "couteau"
+        }
+      ]
+    },
+    {
+      "id": "sara-ue",
+      "glyph": "–ึ",
+      "form": "short-ue",
+      "nameRomanized": "sara ue",
+      "examples": [
+        {
+          "thai": "หึง",
+          "romanized": "hʉ̌ng",
+          "meaningFr": "être jaloux"
+        }
+      ]
+    },
+    {
+      "id": "sara-uue",
+      "glyph": "–ือ",
+      "form": "long-ue",
+      "nameRomanized": "sara uue",
+      "examples": [
+        {
+          "thai": "มือ",
+          "romanized": "mʉʉ",
+          "meaningFr": "main"
+        },
+        {
+          "thai": "ชื่อ",
+          "romanized": "chʉ̂ue",
+          "meaningFr": "nom"
+        }
+      ]
+    },
+    {
+      "id": "sara-u",
+      "glyph": "–ุ",
+      "form": "short-u",
+      "nameRomanized": "sara u",
+      "examples": [
+        {
+          "thai": "ดุ",
+          "romanized": "dù",
+          "meaningFr": "sévère"
+        },
+        {
+          "thai": "ลุง",
+          "romanized": "lung",
+          "meaningFr": "oncle"
+        }
+      ]
+    },
+    {
+      "id": "sara-uu",
+      "glyph": "–ู",
+      "form": "long-u",
+      "nameRomanized": "sara uu",
+      "examples": [
+        {
+          "thai": "ดู",
+          "romanized": "duu",
+          "meaningFr": "regarder"
+        },
+        {
+          "thai": "รูป",
+          "romanized": "rûup",
+          "meaningFr": "photo, forme"
+        }
+      ]
+    },
+    {
+      "id": "sara-e-short",
+      "glyph": "เ–ะ",
+      "form": "short-e",
+      "nameRomanized": "sara e (court)",
+      "examples": [
+        {
+          "thai": "เละ",
+          "romanized": "lé",
+          "meaningFr": "en bouillie"
+        }
+      ]
+    },
+    {
+      "id": "sara-e",
+      "glyph": "เ–",
+      "form": "long-e",
+      "nameRomanized": "sara e",
+      "examples": [
+        {
+          "thai": "เท",
+          "romanized": "tee",
+          "meaningFr": "verser"
+        },
+        {
+          "thai": "เสื้อ",
+          "romanized": "sʉ̂ea",
+          "meaningFr": "chemise"
+        }
+      ]
+    },
+    {
+      "id": "sara-ae-short",
+      "glyph": "แ–ะ",
+      "form": "short-ae",
+      "nameRomanized": "sara ae (court)",
+      "examples": [
+        {
+          "thai": "และ",
+          "romanized": "lé",
+          "meaningFr": "(rare, son ae court)"
+        }
+      ]
+    },
+    {
+      "id": "sara-ae",
+      "glyph": "แ–",
+      "form": "long-ae",
+      "nameRomanized": "sara ae",
+      "examples": [
+        {
+          "thai": "แม่",
+          "romanized": "mâe",
+          "meaningFr": "mère"
+        },
+        {
+          "thai": "แดง",
+          "romanized": "daeng",
+          "meaningFr": "rouge"
+        }
+      ]
+    },
+    {
+      "id": "sara-o-short",
+      "glyph": "โ–ะ",
+      "form": "short-o",
+      "nameRomanized": "sara o (court)",
+      "examples": [
+        {
+          "thai": "โต๊ะ",
+          "romanized": "dtó",
+          "meaningFr": "table"
+        }
+      ]
+    },
+    {
+      "id": "sara-o",
+      "glyph": "โ–",
+      "form": "long-o",
+      "nameRomanized": "sara o",
+      "examples": [
+        {
+          "thai": "โต",
+          "romanized": "dtoo",
+          "meaningFr": "grand (taille)"
+        },
+        {
+          "thai": "โรง",
+          "romanized": "roong",
+          "meaningFr": "bâtiment, usine"
+        }
+      ]
+    },
+    {
+      "id": "sara-aw-short",
+      "glyph": "เ–าะ",
+      "form": "short-aw",
+      "nameRomanized": "sara aw (court)",
+      "examples": [
+        {
+          "thai": "เกาะ",
+          "romanized": "gàw",
+          "meaningFr": "île"
+        }
+      ]
+    },
+    {
+      "id": "sara-aw",
+      "glyph": "–อ",
+      "form": "long-aw",
+      "nameRomanized": "sara aw",
+      "examples": [
+        {
+          "thai": "รอ",
+          "romanized": "raw",
+          "meaningFr": "attendre"
+        },
+        {
+          "thai": "พ่อ",
+          "romanized": "pâw",
+          "meaningFr": "père"
+        }
+      ]
+    },
+    {
+      "id": "sara-er-short",
+      "glyph": "เ–อะ",
+      "form": "short-er",
+      "nameRomanized": "sara er (court)",
+      "examples": [
+        {
+          "thai": "เถอะ",
+          "romanized": "tùe",
+          "meaningFr": "particule d'encouragement"
+        }
+      ]
+    },
+    {
+      "id": "sara-er",
+      "glyph": "เ–อ",
+      "form": "long-er",
+      "nameRomanized": "sara er",
+      "examples": [
+        {
+          "thai": "เธอ",
+          "romanized": "tuee",
+          "meaningFr": "toi (familier)"
+        },
+        {
+          "thai": "เสมอ",
+          "romanized": "sà-mǒe",
+          "meaningFr": "toujours"
+        }
+      ]
+    },
+    {
+      "id": "sara-ia",
+      "glyph": "เ–ีย",
+      "form": "diphthong-ia",
+      "nameRomanized": "sara ia",
+      "examples": [
+        {
+          "thai": "เรียน",
+          "romanized": "rian",
+          "meaningFr": "étudier"
+        },
+        {
+          "thai": "เสีย",
+          "romanized": "sǐa",
+          "meaningFr": "perdre, abîmé"
+        }
+      ]
+    },
+    {
+      "id": "sara-uea",
+      "glyph": "เ–ือ",
+      "form": "diphthong-uea",
+      "nameRomanized": "sara uea",
+      "examples": [
+        {
+          "thai": "เรือ",
+          "romanized": "ruea",
+          "meaningFr": "bateau"
+        },
+        {
+          "thai": "เหลือ",
+          "romanized": "lǔea",
+          "meaningFr": "rester (il reste)"
+        }
+      ]
+    },
+    {
+      "id": "sara-ua",
+      "glyph": "–ัว",
+      "form": "diphthong-ua",
+      "nameRomanized": "sara ua",
+      "examples": [
+        {
+          "thai": "ตัว",
+          "romanized": "dtua",
+          "meaningFr": "corps, classificateur"
+        },
+        {
+          "thai": "หัว",
+          "romanized": "hǔa",
+          "meaningFr": "tête"
+        }
+      ]
+    },
+    {
+      "id": "sara-ai-mai-muan",
+      "glyph": "ใ–",
+      "form": "diphthong-ai",
+      "nameRomanized": "sara ai (mai muan)",
+      "examples": [
+        {
+          "thai": "ใจ",
+          "romanized": "jai",
+          "meaningFr": "cœur"
+        },
+        {
+          "thai": "ใหญ่",
+          "romanized": "yài",
+          "meaningFr": "grand"
+        }
+      ]
+    },
+    {
+      "id": "sara-ai-mai-malai",
+      "glyph": "ไ–",
+      "form": "diphthong-ai",
+      "nameRomanized": "sara ai (mai malai)",
+      "examples": [
+        {
+          "thai": "ไก่",
+          "romanized": "gài",
+          "meaningFr": "poulet"
+        },
+        {
+          "thai": "ไป",
+          "romanized": "bpai",
+          "meaningFr": "aller"
+        }
+      ]
+    },
+    {
+      "id": "sara-ao",
+      "glyph": "เ–า",
+      "form": "diphthong-ao",
+      "nameRomanized": "sara ao",
+      "examples": [
+        {
+          "thai": "เขา",
+          "romanized": "khǎo",
+          "meaningFr": "lui, elle / montagne"
+        },
+        {
+          "thai": "เอา",
+          "romanized": "ao",
+          "meaningFr": "prendre, vouloir"
+        }
+      ]
+    },
+    {
+      "id": "sara-am",
+      "glyph": "–ำ",
+      "form": "special-am",
+      "nameRomanized": "sara am",
+      "examples": [
+        {
+          "thai": "นำ",
+          "romanized": "nam",
+          "meaningFr": "mener, apporter"
+        },
+        {
+          "thai": "ทำ",
+          "romanized": "tam",
+          "meaningFr": "faire"
+        }
+      ]
+    },
+    {
+      "id": "ro-rue",
+      "glyph": "ฤ",
+      "form": "special-ru",
+      "nameRomanized": "ro rue",
+      "examples": [
+        {
+          "thai": "ฤดู",
+          "romanized": "rʉ́-duu",
+          "meaningFr": "saison"
+        },
+        {
+          "thai": "ฤกษ์",
+          "romanized": "rêrk",
+          "meaningFr": "moment propice"
+        }
+      ]
+    }
+  ],
+  "toneRules": [
+    {
+      "id": "mid-live-none",
+      "class": "mid",
+      "syllableType": "live",
+      "toneMark": "none",
+      "resultingTone": "mid",
+      "exampleThai": "ดู",
+      "exampleRomanized": "duu"
+    },
+    {
+      "id": "mid-dead-short-none",
+      "class": "mid",
+      "syllableType": "dead-short",
+      "toneMark": "none",
+      "resultingTone": "low",
+      "exampleThai": "จะ",
+      "exampleRomanized": "jà"
+    },
+    {
+      "id": "mid-dead-long-none",
+      "class": "mid",
+      "syllableType": "dead-long",
+      "toneMark": "none",
+      "resultingTone": "low",
+      "exampleThai": "จาก",
+      "exampleRomanized": "jàak"
+    },
+    {
+      "id": "mid-ek",
+      "class": "mid",
+      "syllableType": "any",
+      "toneMark": "mai-ek",
+      "resultingTone": "low",
+      "exampleThai": "ไก่",
+      "exampleRomanized": "gài"
+    },
+    {
+      "id": "mid-tho",
+      "class": "mid",
+      "syllableType": "any",
+      "toneMark": "mai-tho",
+      "resultingTone": "falling",
+      "exampleThai": "ต้ม",
+      "exampleRomanized": "dtôm"
+    },
+    {
+      "id": "mid-tri",
+      "class": "mid",
+      "syllableType": "any",
+      "toneMark": "mai-tri",
+      "resultingTone": "high",
+      "exampleThai": "ก๊าซ",
+      "exampleRomanized": "gáas"
+    },
+    {
+      "id": "mid-chattawa",
+      "class": "mid",
+      "syllableType": "any",
+      "toneMark": "mai-chattawa",
+      "resultingTone": "rising",
+      "exampleThai": "ตั๋ว",
+      "exampleRomanized": "dtǔa"
+    },
+    {
+      "id": "high-live-none",
+      "class": "high",
+      "syllableType": "live",
+      "toneMark": "none",
+      "resultingTone": "rising",
+      "exampleThai": "ขา",
+      "exampleRomanized": "khǎa"
+    },
+    {
+      "id": "high-dead-short-none",
+      "class": "high",
+      "syllableType": "dead-short",
+      "toneMark": "none",
+      "resultingTone": "low",
+      "exampleThai": "หก",
+      "exampleRomanized": "hòk"
+    },
+    {
+      "id": "high-dead-long-none",
+      "class": "high",
+      "syllableType": "dead-long",
+      "toneMark": "none",
+      "resultingTone": "low",
+      "exampleThai": "ขาด",
+      "exampleRomanized": "khàat"
+    },
+    {
+      "id": "high-ek",
+      "class": "high",
+      "syllableType": "any",
+      "toneMark": "mai-ek",
+      "resultingTone": "low",
+      "exampleThai": "ข่า",
+      "exampleRomanized": "khàa"
+    },
+    {
+      "id": "high-tho",
+      "class": "high",
+      "syllableType": "any",
+      "toneMark": "mai-tho",
+      "resultingTone": "falling",
+      "exampleThai": "ข้าว",
+      "exampleRomanized": "khâao"
+    },
+    {
+      "id": "low-live-none",
+      "class": "low",
+      "syllableType": "live",
+      "toneMark": "none",
+      "resultingTone": "mid",
+      "exampleThai": "มา",
+      "exampleRomanized": "maa"
+    },
+    {
+      "id": "low-dead-short-none",
+      "class": "low",
+      "syllableType": "dead-short",
+      "toneMark": "none",
+      "resultingTone": "high",
+      "exampleThai": "คะ",
+      "exampleRomanized": "ká"
+    },
+    {
+      "id": "low-dead-long-none",
+      "class": "low",
+      "syllableType": "dead-long",
+      "toneMark": "none",
+      "resultingTone": "falling",
+      "exampleThai": "มาก",
+      "exampleRomanized": "mâak"
+    },
+    {
+      "id": "low-ek",
+      "class": "low",
+      "syllableType": "any",
+      "toneMark": "mai-ek",
+      "resultingTone": "falling",
+      "exampleThai": "ค่า",
+      "exampleRomanized": "khâa"
+    },
+    {
+      "id": "low-tho",
+      "class": "low",
+      "syllableType": "any",
+      "toneMark": "mai-tho",
+      "resultingTone": "high",
+      "exampleThai": "ช้าง",
+      "exampleRomanized": "cháang"
+    }
+  ]
+}
