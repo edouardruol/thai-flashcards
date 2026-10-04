@@ -1211,7 +1211,7 @@
   "vowels": [
     {
       "id": "sara-a",
-      "glyph": "–ะ",
+      "glyph": "อะ",
       "form": "short-a",
       "nameRomanized": "sara a",
       "examples": [
@@ -1229,7 +1229,7 @@
     },
     {
       "id": "sara-aa",
-      "glyph": "–า",
+      "glyph": "อา",
       "form": "long-a",
       "nameRomanized": "sara aa",
       "examples": [
@@ -1247,7 +1247,7 @@
     },
     {
       "id": "sara-i",
-      "glyph": "–ิ",
+      "glyph": "อิ",
       "form": "short-i",
       "nameRomanized": "sara i",
       "examples": [
@@ -1265,7 +1265,7 @@
     },
     {
       "id": "sara-ii",
-      "glyph": "–ี",
+      "glyph": "อี",
       "form": "long-i",
       "nameRomanized": "sara ii",
       "examples": [
@@ -1283,7 +1283,7 @@
     },
     {
       "id": "sara-ue",
-      "glyph": "–ึ",
+      "glyph": "อึ",
       "form": "short-ue",
       "nameRomanized": "sara ue",
       "examples": [
@@ -1296,7 +1296,7 @@
     },
     {
       "id": "sara-uue",
-      "glyph": "–ือ",
+      "glyph": "อือ",
       "form": "long-ue",
       "nameRomanized": "sara uue",
       "examples": [
@@ -1314,7 +1314,7 @@
     },
     {
       "id": "sara-u",
-      "glyph": "–ุ",
+      "glyph": "อุ",
       "form": "short-u",
       "nameRomanized": "sara u",
       "examples": [
@@ -1332,7 +1332,7 @@
     },
     {
       "id": "sara-uu",
-      "glyph": "–ู",
+      "glyph": "อู",
       "form": "long-u",
       "nameRomanized": "sara uu",
       "examples": [
@@ -1350,7 +1350,7 @@
     },
     {
       "id": "sara-e-short",
-      "glyph": "เ–ะ",
+      "glyph": "เอะ",
       "form": "short-e",
       "nameRomanized": "sara e (court)",
       "examples": [
@@ -1363,7 +1363,7 @@
     },
     {
       "id": "sara-e",
-      "glyph": "เ–",
+      "glyph": "เอ",
       "form": "long-e",
       "nameRomanized": "sara e",
       "examples": [
@@ -1381,7 +1381,7 @@
     },
     {
       "id": "sara-ae-short",
-      "glyph": "แ–ะ",
+      "glyph": "แอะ",
       "form": "short-ae",
       "nameRomanized": "sara ae (court)",
       "examples": [
@@ -1394,7 +1394,7 @@
     },
     {
       "id": "sara-ae",
-      "glyph": "แ–",
+      "glyph": "แอ",
       "form": "long-ae",
       "nameRomanized": "sara ae",
       "examples": [
@@ -1412,7 +1412,7 @@
     },
     {
       "id": "sara-o-short",
-      "glyph": "โ–ะ",
+      "glyph": "โอะ",
       "form": "short-o",
       "nameRomanized": "sara o (court)",
       "examples": [
@@ -1425,7 +1425,7 @@
     },
     {
       "id": "sara-o",
-      "glyph": "โ–",
+      "glyph": "โอ",
       "form": "long-o",
       "nameRomanized": "sara o",
       "examples": [
@@ -1443,7 +1443,7 @@
     },
     {
       "id": "sara-aw-short",
-      "glyph": "เ–าะ",
+      "glyph": "เอาะ",
       "form": "short-aw",
       "nameRomanized": "sara aw (court)",
       "examples": [
@@ -1456,7 +1456,7 @@
     },
     {
       "id": "sara-aw",
-      "glyph": "–อ",
+      "glyph": "ออ",
       "form": "long-aw",
       "nameRomanized": "sara aw",
       "examples": [
@@ -1474,7 +1474,7 @@
     },
     {
       "id": "sara-er-short",
-      "glyph": "เ–อะ",
+      "glyph": "เออะ",
       "form": "short-er",
       "nameRomanized": "sara er (court)",
       "examples": [
@@ -1487,7 +1487,7 @@
     },
     {
       "id": "sara-er",
-      "glyph": "เ–อ",
+      "glyph": "เออ",
       "form": "long-er",
       "nameRomanized": "sara er",
       "examples": [
@@ -1505,7 +1505,7 @@
     },
     {
       "id": "sara-ia",
-      "glyph": "เ–ีย",
+      "glyph": "เอีย",
       "form": "diphthong-ia",
       "nameRomanized": "sara ia",
       "examples": [
@@ -1523,7 +1523,7 @@
     },
     {
       "id": "sara-uea",
-      "glyph": "เ–ือ",
+      "glyph": "เอือ",
       "form": "diphthong-uea",
       "nameRomanized": "sara uea",
       "examples": [
@@ -1541,7 +1541,7 @@
     },
     {
       "id": "sara-ua",
-      "glyph": "–ัว",
+      "glyph": "อัว",
       "form": "diphthong-ua",
       "nameRomanized": "sara ua",
       "examples": [
@@ -1559,7 +1559,7 @@
     },
     {
       "id": "sara-ai-mai-muan",
-      "glyph": "ใ–",
+      "glyph": "ใอ",
       "form": "diphthong-ai",
       "nameRomanized": "sara ai (mai muan)",
       "examples": [
@@ -1577,7 +1577,7 @@
     },
     {
       "id": "sara-ai-mai-malai",
-      "glyph": "ไ–",
+      "glyph": "ไอ",
       "form": "diphthong-ai",
       "nameRomanized": "sara ai (mai malai)",
       "examples": [
@@ -1595,7 +1595,7 @@
     },
     {
       "id": "sara-ao",
-      "glyph": "เ–า",
+      "glyph": "เอา",
       "form": "diphthong-ao",
       "nameRomanized": "sara ao",
       "examples": [
@@ -1613,7 +1613,7 @@
     },
     {
       "id": "sara-am",
-      "glyph": "–ำ",
+      "glyph": "อำ",
       "form": "special-am",
       "nameRomanized": "sara am",
       "examples": [
