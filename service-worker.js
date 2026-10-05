@@ -1,4 +1,4 @@
-const CACHE_NAME = "thai-flashcards-v10";
+const CACHE_NAME = "thai-flashcards-v11";
 
 const PRECACHE_URLS = [
   "./",
@@ -16,8 +16,7 @@ const PRECACHE_URLS = [
   "icons/icon-192.png",
   "icons/icon-512.png",
   "icons/icon-512-maskable.png",
-  "fonts/SpaceGrotesk-Variable.woff2",
-  "fonts/NotoSerifThai-Regular.woff2",
+  "fonts/NotoSansThaiLooped-Variable.woff2",
 ];
 
 self.addEventListener("install", (event) => {
