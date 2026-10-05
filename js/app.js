@@ -50,7 +50,6 @@ const cardGlyph = document.getElementById("card-glyph");
 const tapHint = document.getElementById("tap-hint");
 const tapHintDesktop = document.getElementById("tap-hint-desktop");
 const cardBack = document.getElementById("card-back");
-const cardNameThai = document.getElementById("card-name-thai");
 const cardNameRomanized = document.getElementById("card-name-romanized");
 const cardClass = document.getElementById("card-class");
 const cardExamples = document.getElementById("card-examples");
@@ -150,13 +149,10 @@ function renderCurrentCard() {
   tapHintDesktop.classList.remove("hidden");
 
   if (card.kind === "consonant") {
-    cardNameThai.textContent = card.nameThai;
-    cardNameThai.classList.remove("hidden");
     cardNameRomanized.textContent = `${card.nameRomanized} — ${card.nameMeaningFr}`;
     cardClass.textContent = CLASS_LABELS[card.class] || "";
     cardClass.classList.remove("hidden");
   } else {
-    cardNameThai.classList.add("hidden");
     cardNameRomanized.textContent = card.nameRomanized;
     cardClass.classList.add("hidden");
   }

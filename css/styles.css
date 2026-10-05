@@ -317,11 +317,6 @@ button {
   margin-bottom: 18px;
 }
 
-.name-thai {
-  font-family: var(--font-thai-serif);
-  font-size: 1.5rem;
-}
-
 .name-romanized {
   font-family: var(--font-serif);
   font-size: 1.2rem;
