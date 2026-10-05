@@ -88,6 +88,39 @@ button {
   font-size: 0.95rem;
 }
 
+.mode-row {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+  max-width: 360px;
+  overflow-x: auto;
+  padding-bottom: 2px;
+  margin-bottom: 14px;
+  scrollbar-width: none;
+}
+
+.mode-row::-webkit-scrollbar {
+  display: none;
+}
+
+.mode-chip {
+  flex: none;
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  padding: 7px 14px;
+  font-size: 0.82rem;
+  color: var(--color-muted);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.mode-chip.active {
+  background: var(--color-accent-soft);
+  color: var(--color-accent-text);
+  border-color: var(--color-accent);
+}
+
 .primary-btn {
   background: var(--color-accent);
   color: #ffffff;

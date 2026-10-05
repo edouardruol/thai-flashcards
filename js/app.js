@@ -44,6 +44,15 @@ const statLearningEl = document.getElementById("stat-learning");
 const statMasteredEl = document.getElementById("stat-mastered");
 const browseTabs = document.getElementById("browse-tabs");
 const browseList = document.getElementById("browse-list");
+const modeRow = document.getElementById("mode-row");
+
+const MODE_FILTERS = {
+  random: () => true,
+  mid: (card) => card.kind === "consonant" && card.class === "mid",
+  high: (card) => card.kind === "consonant" && card.class === "high",
+  low: (card) => card.kind === "consonant" && card.class === "low",
+  vowel: (card) => card.kind === "vowel",
+};
 
 const flashcard = document.getElementById("flashcard");
 const cardGlyph = document.getElementById("card-glyph");
@@ -61,6 +70,11 @@ let allCards = [];
 let queue = [];
 let currentIndex = 0;
 let flipped = false;
+let reviewMode = "random";
+
+function getFilteredCards() {
+  return allCards.filter(MODE_FILTERS[reviewMode]);
+}
 
 async function init() {
   if ("serviceWorker" in navigator) {
@@ -79,7 +93,19 @@ async function init() {
   flashcard.addEventListener("click", flipCard);
   gradeButtons.addEventListener("click", onGradeClick);
   browseTabs.addEventListener("click", onBrowseTabClick);
+  modeRow.addEventListener("click", onModeClick);
   document.addEventListener("keydown", onKeyDown);
+}
+
+function onModeClick(event) {
+  const mode = event.target.dataset.mode;
+  if (!mode) return;
+
+  reviewMode = mode;
+  for (const chip of modeRow.children) {
+    chip.classList.toggle("active", chip === event.target);
+  }
+  refreshDashboard();
 }
 
 function pluralizeCartes(count) {
@@ -103,7 +129,7 @@ function onKeyDown(event) {
 
 function refreshDashboard() {
   const allStates = getAllStates();
-  const dueQueue = buildTodayQueue(allCards, allStates);
+  const dueQueue = buildTodayQueue(getFilteredCards(), allStates);
   dueCountEl.textContent = pluralizeCartes(dueQueue.length);
 
   const stats = computeStats(allCards, allStates);
@@ -114,7 +140,7 @@ function refreshDashboard() {
 
 function startReview() {
   const allStates = getAllStates();
-  queue = buildTodayQueue(allCards, allStates);
+  queue = buildTodayQueue(getFilteredCards(), allStates);
   currentIndex = 0;
 
   dashboardView.classList.add("hidden");
