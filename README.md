@@ -9,10 +9,13 @@ All `romanized` / `nameRomanized` fields in `data/thai-alphabet.json` use a simp
 - **Tone marking** (suffix/diacritic on the vowel): mid = no mark, low = grave accent (`à`), falling = circumflex (`â`), high = acute accent (`á`), rising = caron (`ǎ`).
 - **Vowel length**: long vowels are written with a doubled letter (`aa`, `ii`, `uu`, `ee`, `oo`); short vowels use a single letter.
 - Consonant clusters follow common beginner convention (`bp` for the unaspirated ป, `dt` for the unaspirated ต, `ng` for ง, etc.) rather than the official RTGS system, which deliberately drops tones and vowel length and is unsuitable for a reading app.
+- **ASCII only, no IPA symbols** (no `ʉ` etc.). The อึ/อือ vowel sound is written as the digraph `ue` (short) / `uue` (long), e.g. `hǔeng`, `muue`, `chûue` — the tone diacritic goes on the first letter of the digraph. The เออ vowel uses the digraph `oe`, e.g. `toe`, `sà-mǒe`.
+- Short เอะ (`e`) and short แอะ (`ae`) are spelled with different base letters (`lé` vs `láe`) precisely so they stay distinguishable — don't let both collapse to the same spelling.
+- A consonant that is never used as a final gets `"finalSound": null` (not a guessed letter).
 
 ## Content accuracy note
 
-The dataset (`data/thai-alphabet.json`) was built by cross-checking the standard 44-consonant table, the three consonant classes (mid/high/low), and the tone-mark rule system against multiple independent sources before being written out — this isn't freehand-generated. That said, Thai script and tone rules have enough edge cases that **a spot-check by Edouard himself is worth doing** before trusting the deck fully: pick a handful of consonants across the three classes and a few tone-rule entries, and check them against an independent reference (e.g. thai-language.com or a textbook) if anything looks off.
+The dataset (`data/thai-alphabet.json`) was cross-checked twice: once while building it (consonant classes, the 44-letter table, the tone-mark rule system against multiple sources) and once by an independent adversarial review pass on 2026-10-05, which found and fixed a wrong `finalSound`, one example word filed under the wrong vowel, and several romanization inconsistencies (IPA symbols mixed into the ASCII scheme, two vowels colliding on the same spelling). The consonant classes and the 17 tone rules were verified correct in both passes. That said, Thai script has enough edge cases that **a spot-check by Edouard himself is still worth doing** before trusting the deck fully — pick a handful of entries across the three classes and check them against an independent reference (e.g. thai-language.com) if anything looks off.
 
 Two consonants (ฃ kho khuat, ฅ kho khon) are marked `"obsolete": true` — they're part of the traditional 44-letter set but essentially unused in modern Thai, so they're excluded from the default spaced-repetition queue but still present for completeness.
 

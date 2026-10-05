@@ -79,7 +79,7 @@
       "examples": [
         {
           "thai": "ขวด",
-          "romanized": "kùuat",
+          "romanized": "kùat",
           "meaningFr": "bouteille (s'écrit avec ข aujourd'hui)"
         }
       ]
@@ -232,7 +232,7 @@
       "nameMeaningFr": "petites cymbales",
       "class": "high",
       "initialSound": "ch",
-      "finalSound": "t",
+      "finalSound": null,
       "obsolete": false,
       "examples": [
         {
@@ -729,7 +729,7 @@
       "examples": [
         {
           "thai": "ผึ้ง",
-          "romanized": "pʉ̂ng",
+          "romanized": "pûeng",
           "meaningFr": "abeille"
         },
         {
@@ -1289,7 +1289,7 @@
       "examples": [
         {
           "thai": "หึง",
-          "romanized": "hʉ̌ng",
+          "romanized": "hǔeng",
           "meaningFr": "être jaloux"
         }
       ]
@@ -1302,12 +1302,12 @@
       "examples": [
         {
           "thai": "มือ",
-          "romanized": "mʉʉ",
+          "romanized": "muue",
           "meaningFr": "main"
         },
         {
           "thai": "ชื่อ",
-          "romanized": "chʉ̂ue",
+          "romanized": "chûue",
           "meaningFr": "nom"
         }
       ]
@@ -1373,9 +1373,9 @@
           "meaningFr": "verser"
         },
         {
-          "thai": "เสื้อ",
-          "romanized": "sʉ̂ea",
-          "meaningFr": "chemise"
+          "thai": "เก่ง",
+          "romanized": "gèng",
+          "meaningFr": "doué, compétent"
         }
       ]
     },
@@ -1387,8 +1387,8 @@
       "examples": [
         {
           "thai": "และ",
-          "romanized": "lé",
-          "meaningFr": "(rare, son ae court)"
+          "romanized": "láe",
+          "meaningFr": "et"
         }
       ]
     },
@@ -1493,7 +1493,7 @@
       "examples": [
         {
           "thai": "เธอ",
-          "romanized": "tuee",
+          "romanized": "toe",
           "meaningFr": "toi (familier)"
         },
         {

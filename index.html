@@ -19,11 +19,11 @@
 <main id="dashboard" class="view">
   <header class="dashboard-header">
     <h1>อักษรไทย</h1>
-    <p class="subtitle">Thai Flashcards</p>
+    <p class="subtitle">Alphabet thaï</p>
   </header>
 
   <button id="review-btn" class="primary-btn">
-    Réviser <span id="due-count">0</span> carte(s)
+    Réviser <span id="due-count">0 carte</span>
   </button>
 
   <div class="stats">
@@ -53,35 +53,40 @@
 </main>
 
 <main id="review" class="view hidden">
-  <button id="exit-review" class="icon-btn" aria-label="Fermer">&times;</button>
+  <div class="review-topbar">
+    <button id="exit-review" class="icon-btn" aria-label="Fermer">&times;</button>
+  </div>
 
-  <div class="card-area">
-    <div class="card" id="flashcard">
-      <div class="card-front">
-        <div class="glyph" id="card-glyph"></div>
-        <p class="tap-hint" id="tap-hint">Touche pour retourner</p>
-      </div>
-      <div class="card-back hidden" id="card-back">
-        <div class="name-row">
-          <span class="name-thai" id="card-name-thai"></span>
-          <span class="name-romanized" id="card-name-romanized"></span>
-          <span class="class-badge hidden" id="card-class"></span>
+  <div class="review-stack">
+    <div class="card-area">
+      <div class="card" id="flashcard">
+        <div class="card-front">
+          <div class="glyph" id="card-glyph"></div>
+          <p class="tap-hint hint-mobile" id="tap-hint">Touche pour retourner</p>
+          <p class="tap-hint hint-desktop" id="tap-hint-desktop">Espace pour retourner &middot; 1-4 pour noter</p>
         </div>
-        <ul class="examples" id="card-examples"></ul>
+        <div class="card-back hidden" id="card-back">
+          <div class="name-row">
+            <span class="name-thai" id="card-name-thai"></span>
+            <span class="name-romanized" id="card-name-romanized"></span>
+            <span class="class-badge hidden" id="card-class"></span>
+          </div>
+          <ul class="examples" id="card-examples"></ul>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="grade-buttons hidden" id="grade-buttons">
-    <button class="grade-btn grade-again" data-grade="again">Again</button>
-    <button class="grade-btn grade-hard" data-grade="hard">Hard</button>
-    <button class="grade-btn grade-good" data-grade="good">Good</button>
-    <button class="grade-btn grade-easy" data-grade="easy">Easy</button>
-  </div>
+    <div class="grade-buttons invisible" id="grade-buttons">
+      <button class="grade-btn grade-again" data-grade="again">À revoir</button>
+      <button class="grade-btn grade-hard" data-grade="hard">Difficile</button>
+      <button class="grade-btn grade-good" data-grade="good">Bien</button>
+      <button class="grade-btn grade-easy" data-grade="easy">Facile</button>
+    </div>
 
-  <div class="done-screen hidden" id="done-screen">
-    <p>Terminé pour aujourd'hui</p>
-    <button id="back-to-dashboard" class="primary-btn">Retour</button>
+    <div class="done-screen hidden" id="done-screen">
+      <p>Terminé pour aujourd'hui</p>
+      <button id="back-to-dashboard" class="primary-btn">Retour</button>
+    </div>
   </div>
 </main>
 

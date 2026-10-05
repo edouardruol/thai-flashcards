@@ -1,14 +1,43 @@
+@font-face {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Lora-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Lora";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Lora-Italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Noto Serif Thai";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/NotoSerifThai-Regular.woff2") format("woff2");
+}
+
 :root {
   --color-bg: #faf6f2;
+  --color-surround: #efe6dc;
   --color-ink: #2b1f1a;
-  --color-brand: #7a3b2e;
-  --color-brand-light: #c98a6f;
-  --color-card: #ffffff;
+  --color-muted: #8a7a70;
+  --color-brand: #6e1a24;
+  --color-accent-text: var(--color-brand);
+  --color-card: #fffdf9;
   --color-border: #e6dcd3;
-  --color-again: #c0392b;
-  --color-hard: #d68910;
-  --color-good: #2e7d32;
-  --color-easy: #1565c0;
+  --color-again: #9c3b2f;
+  --color-hard: #8a5a00;
+  --color-good: #5f7040;
+  --color-easy: #3d5470;
+  --font-serif: "Lora", Georgia, serif;
+  --font-thai-serif: "Noto Serif Thai", "Lora", serif;
+  --shadow-card: 0 1px 2px rgba(60, 30, 20, 0.06), 0 10px 28px rgba(60, 30, 20, 0.08);
 }
 
 * {
@@ -18,14 +47,27 @@
 html, body {
   margin: 0;
   padding: 0;
+  min-height: 100%;
   background: var(--color-bg);
   color: var(--color-ink);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  height: 100%;
+}
+
+button {
+  font: inherit;
+  color: inherit;
 }
 
 .hidden {
   display: none !important;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.hint-desktop {
+  display: none;
 }
 
 .view {
@@ -44,14 +86,16 @@ html, body {
 }
 
 .dashboard-header h1 {
-  font-size: 2rem;
+  font-family: var(--font-thai-serif);
+  font-weight: 400;
+  font-size: 2.1rem;
   margin: 0;
-  color: var(--color-brand);
+  color: var(--color-accent-text);
 }
 
 .subtitle {
   margin: 4px 0 0;
-  color: #8a7a70;
+  color: var(--color-muted);
   font-size: 0.9rem;
 }
 
@@ -77,40 +121,39 @@ html, body {
   gap: 12px;
   width: 100%;
   max-width: 360px;
-  margin-top: 20px;
+  margin-top: 24px;
 }
 
 .stat-tile {
   flex: 1;
-  background: var(--color-card);
-  border: 1px solid var(--color-border);
-  border-radius: 12px;
-  padding: 12px 8px;
   text-align: center;
 }
 
 .stat-value {
   display: block;
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: var(--color-brand);
+  font-family: var(--font-serif);
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: var(--color-accent-text);
 }
 
 .stat-label {
   display: block;
-  font-size: 0.75rem;
-  color: #8a7a70;
+  font-size: 0.72rem;
+  color: var(--color-muted);
   margin-top: 2px;
 }
 
 .browse {
   width: 100%;
   max-width: 360px;
-  margin-top: 32px;
+  margin-top: 28px;
 }
 
 .browse h2 {
-  font-size: 1rem;
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 1.1rem;
   margin-bottom: 10px;
 }
 
@@ -127,6 +170,7 @@ html, body {
   border-radius: 8px;
   padding: 8px;
   font-size: 0.85rem;
+  color: var(--color-ink);
   cursor: pointer;
 }
 
@@ -137,44 +181,78 @@ html, body {
 }
 
 .browse-list {
-  max-height: 40vh;
-  overflow-y: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+  background: var(--color-card);
+  border-radius: 12px;
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
 }
 
 .browse-item {
-  background: var(--color-card);
-  border: 1px solid var(--color-border);
-  border-radius: 10px;
-  padding: 10px 12px;
-  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--color-border);
 }
 
-.browse-item .glyph-small {
+.browse-item:last-child {
+  border-bottom: none;
+}
+
+.browse-item .browse-glyph {
+  width: 64px;
+  flex: none;
+  overflow: hidden;
+  font-family: var(--font-thai-serif);
   font-size: 1.3rem;
-  margin-right: 8px;
+  color: var(--color-accent-text);
+  text-align: left;
+  white-space: nowrap;
+}
+
+.browse-item .browse-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.browse-item .browse-name {
+  font-size: 0.92rem;
+}
+
+.browse-item .browse-meta {
+  font-size: 0.78rem;
+  color: var(--color-muted);
+  margin-top: 1px;
 }
 
 /* Review */
 
-#review {
-  justify-content: space-between;
+.review-topbar {
+  width: 100%;
+  max-width: 320px;
+  display: flex;
 }
 
 .icon-btn {
-  align-self: flex-start;
   background: none;
   border: none;
   font-size: 1.8rem;
-  color: #8a7a70;
+  color: var(--color-muted);
   cursor: pointer;
   line-height: 1;
 }
 
-.card-area {
+.review-stack {
   flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+}
+
+.card-area {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -184,26 +262,45 @@ html, body {
 .card {
   background: var(--color-card);
   border-radius: 20px;
-  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-card);
   width: 100%;
-  max-width: 360px;
-  min-height: 320px;
-  padding: 24px;
+  max-width: 320px;
+  height: min(70vh, 480px);
+  padding: 28px 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
   cursor: pointer;
+  overflow-y: auto;
+}
+
+.card.flipped {
+  justify-content: flex-start;
+  padding-top: 32px;
 }
 
 .glyph {
-  font-size: 5rem;
-  color: var(--color-brand);
+  font-family: var(--font-thai-serif);
+  font-weight: 400;
+  font-size: clamp(100px, 32vw, 160px);
+  line-height: 1;
+  color: var(--color-accent-text);
+  transition: font-size 0.15s ease;
+}
+
+.card.flipped .glyph {
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+}
+
+.glyph.glyph-long {
+  font-size: clamp(70px, 22vw, 110px);
 }
 
 .tap-hint {
-  color: #b0a39a;
+  color: var(--color-muted);
   font-size: 0.8rem;
   margin-top: 16px;
 }
@@ -217,83 +314,104 @@ html, body {
   flex-direction: column;
   align-items: center;
   gap: 4px;
-  margin-bottom: 16px;
+  margin-bottom: 18px;
 }
 
 .name-thai {
-  font-size: 1.6rem;
+  font-family: var(--font-thai-serif);
+  font-size: 1.5rem;
 }
 
 .name-romanized {
-  color: var(--color-brand-light);
-  font-style: italic;
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  color: var(--color-ink);
 }
 
 .class-badge {
   display: inline-block;
   margin-top: 4px;
-  padding: 2px 10px;
+  padding: 3px 12px;
   border-radius: 999px;
   background: var(--color-bg);
   border: 1px solid var(--color-border);
   font-size: 0.75rem;
-  color: var(--color-brand);
+  color: var(--color-accent-text);
 }
 
 .examples {
-  list-style: none;
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  align-items: start;
+  column-gap: 14px;
   padding: 0;
   margin: 0;
-  text-align: left;
   width: 100%;
+  text-align: left;
 }
 
 .examples li {
-  padding: 8px 0;
-  border-top: 1px solid var(--color-border);
-  font-size: 0.95rem;
-}
-
-.examples li:first-child {
-  border-top: none;
+  display: contents;
 }
 
 .examples .ex-thai {
-  font-size: 1.1rem;
+  grid-column: 1;
+  font-family: var(--font-thai-serif);
+  font-size: 1.15rem;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 9px 0;
+  border-top: 1px solid var(--color-border);
+}
+
+.examples .ex-meta {
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 9px 0;
+  border-top: 1px solid var(--color-border);
+}
+
+.examples li:first-child > .ex-thai,
+.examples li:first-child > .ex-meta {
+  border-top: none;
 }
 
 .examples .ex-romanized {
-  color: var(--color-brand-light);
   font-style: italic;
-  margin: 0 6px;
+  color: var(--color-ink);
+  font-size: 0.9rem;
 }
 
 .examples .ex-meaning {
-  color: #8a7a70;
+  color: var(--color-muted);
+  font-size: 0.85rem;
 }
 
 .grade-buttons {
   display: flex;
   gap: 8px;
   width: 100%;
-  max-width: 360px;
+  max-width: 320px;
 }
 
 .grade-btn {
   flex: 1;
-  border: none;
   border-radius: 12px;
-  padding: 14px 4px;
-  color: white;
+  padding: 13px 4px;
   font-weight: 600;
   font-size: 0.85rem;
   cursor: pointer;
+  border: 1.5px solid var(--btn-color);
+  background: color-mix(in srgb, var(--btn-color) 16%, transparent);
+  color: var(--btn-color);
 }
 
-.grade-again { background: var(--color-again); }
-.grade-hard { background: var(--color-hard); }
-.grade-good { background: var(--color-good); }
-.grade-easy { background: var(--color-easy); }
+.grade-again { --btn-color: var(--color-again); }
+.grade-hard { --btn-color: var(--color-hard); }
+.grade-good { --btn-color: var(--color-good); }
+.grade-easy { --btn-color: var(--color-easy); }
 
 .done-screen {
   text-align: center;
@@ -303,11 +421,46 @@ html, body {
   gap: 16px;
 }
 
+@media (min-width: 768px) {
+  html, body {
+    background: var(--color-surround);
+  }
+
+  #dashboard {
+    max-width: 440px;
+    margin: 40px auto;
+    min-height: calc(100vh - 80px);
+    background: var(--color-bg);
+    border-radius: 28px;
+    box-shadow: var(--shadow-card);
+  }
+
+  #review {
+    max-width: 440px;
+    margin: 0 auto;
+  }
+
+  .hint-mobile {
+    display: none;
+  }
+
+  .hint-desktop {
+    display: block;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --color-bg: #1b1512;
+    --color-surround: #120e0c;
     --color-ink: #f2e9e3;
+    --color-muted: #b2a299;
     --color-card: #2a221d;
     --color-border: #3c322b;
+    --color-accent-text: #e0896d;
+    --color-again: #e8857a;
+    --color-hard: #d9a94e;
+    --color-good: #9bc17e;
+    --color-easy: #8aa9cc;
   }
 }
