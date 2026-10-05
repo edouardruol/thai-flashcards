@@ -1213,7 +1213,7 @@
       "id": "sara-a",
       "glyph": "อะ",
       "form": "short-a",
-      "nameRomanized": "sara a",
+      "nameRomanized": "sara a (court)",
       "examples": [
         {
           "thai": "กะ",
@@ -1249,7 +1249,7 @@
       "id": "sara-i",
       "glyph": "อิ",
       "form": "short-i",
-      "nameRomanized": "sara i",
+      "nameRomanized": "sara i (court)",
       "examples": [
         {
           "thai": "กิน",
@@ -1285,7 +1285,7 @@
       "id": "sara-ue",
       "glyph": "อึ",
       "form": "short-ue",
-      "nameRomanized": "sara ue",
+      "nameRomanized": "sara ue (court)",
       "examples": [
         {
           "thai": "หึง",
@@ -1316,7 +1316,7 @@
       "id": "sara-u",
       "glyph": "อุ",
       "form": "short-u",
-      "nameRomanized": "sara u",
+      "nameRomanized": "sara u (court)",
       "examples": [
         {
           "thai": "ดุ",

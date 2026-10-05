@@ -5,6 +5,37 @@ import { buildTodayQueue, gradeCurrentCard } from "./review-session.js";
 
 const CLASS_LABELS = { low: "classe basse", mid: "classe moyenne", high: "classe haute" };
 
+const SYLLABLE_TYPE_LABELS = {
+  live: "syllabe vivante",
+  "dead-short": "syllabe morte (voyelle courte)",
+  "dead-long": "syllabe morte (voyelle longue)",
+  any: "syllabe vivante ou morte",
+};
+
+const TONE_MARK_LABELS = {
+  none: "sans marque",
+  "mai-ek": "ไม้เอก (อ่)",
+  "mai-tho": "ไม้โท (อ้)",
+  "mai-tri": "ไม้ตรี (อ๊)",
+  "mai-chattawa": "ไม้จัตวา (อ๋)",
+};
+
+const TONE_MARK_GLYPHS = {
+  none: "อ",
+  "mai-ek": "อ่",
+  "mai-tho": "อ้",
+  "mai-tri": "อ๊",
+  "mai-chattawa": "อ๋",
+};
+
+const RESULTING_TONE_LABELS = {
+  mid: "moyen",
+  low: "bas",
+  falling: "descendant",
+  high: "haut",
+  rising: "montant",
+};
+
 const dashboardView = document.getElementById("dashboard");
 const reviewView = document.getElementById("review");
 const dueCountEl = document.getElementById("due-count");
@@ -197,9 +228,10 @@ function renderBrowseList(category) {
     }
   } else if (category === "tone") {
     for (const rule of appData.toneRules) {
-      const label = `${CLASS_LABELS[rule.class] || rule.class} + ${rule.syllableType} + ${rule.toneMark} → ${rule.resultingTone}`;
+      const glyph = TONE_MARK_GLYPHS[rule.toneMark] || "อ";
+      const label = `${CLASS_LABELS[rule.class] || rule.class}, ${SYLLABLE_TYPE_LABELS[rule.syllableType] || rule.syllableType}, ${TONE_MARK_LABELS[rule.toneMark] || rule.toneMark} → ton ${RESULTING_TONE_LABELS[rule.resultingTone] || rule.resultingTone}`;
       const meta = `${rule.exampleThai} (${rule.exampleRomanized})`;
-      browseList.appendChild(makeBrowseItem("", label, meta));
+      browseList.appendChild(makeBrowseItem(glyph, label, meta));
     }
   }
 }
