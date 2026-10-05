@@ -90,17 +90,11 @@ button {
 
 .mode-row {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
   width: 100%;
   max-width: 360px;
-  overflow-x: auto;
-  padding-bottom: 2px;
   margin-bottom: 14px;
-  scrollbar-width: none;
-}
-
-.mode-row::-webkit-scrollbar {
-  display: none;
 }
 
 .mode-chip {
