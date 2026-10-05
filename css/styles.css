@@ -1,17 +1,9 @@
 @font-face {
-  font-family: "Lora";
+  font-family: "Space Grotesk";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300 700;
   font-display: swap;
-  src: url("../fonts/Lora-Regular.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Lora";
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url("../fonts/Lora-Italic.woff2") format("woff2");
+  src: url("../fonts/SpaceGrotesk-Variable.woff2") format("woff2");
 }
 
 @font-face {
@@ -23,21 +15,23 @@
 }
 
 :root {
-  --color-bg: #faf6f2;
-  --color-surround: #efe6dc;
-  --color-ink: #2b1f1a;
-  --color-muted: #8a7a70;
-  --color-brand: #6e1a24;
-  --color-accent-text: var(--color-brand);
-  --color-card: #fffdf9;
-  --color-border: #e6dcd3;
-  --color-again: #9c3b2f;
-  --color-hard: #8a5a00;
-  --color-good: #5f7040;
-  --color-easy: #3d5470;
-  --font-serif: "Lora", Georgia, serif;
-  --font-thai-serif: "Noto Serif Thai", "Lora", serif;
-  --shadow-card: 0 1px 2px rgba(60, 30, 20, 0.06), 0 10px 28px rgba(60, 30, 20, 0.08);
+  --color-bg: #0a0b16;
+  --color-surround: #050609;
+  --color-card: #141629;
+  --color-border: rgba(167, 139, 250, 0.22);
+  --color-ink: #ece9f7;
+  --color-muted: #a6a3c9;
+  --color-accent: #b996f8;
+  --color-accent-2: #4ade80;
+  --color-accent-blue: #38bdf8;
+  --color-again: #fb7185;
+  --color-hard: #fbbf24;
+  --color-good: #4ade80;
+  --color-easy: #38bdf8;
+  --font-display: "Space Grotesk", -apple-system, sans-serif;
+  --font-thai-serif: "Noto Serif Thai", "Space Grotesk", serif;
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.3), 0 20px 48px rgba(0, 0, 0, 0.45);
+  --glow-accent: 0 0 32px rgba(185, 150, 248, 0.35);
 }
 
 * {
@@ -48,9 +42,13 @@ html, body {
   margin: 0;
   padding: 0;
   min-height: 100%;
-  background: var(--color-bg);
   color: var(--color-ink);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: var(--color-bg);
+  background-image:
+    radial-gradient(760px circle at 12% -8%, rgba(167, 139, 250, 0.28), transparent 60%),
+    radial-gradient(760px circle at 92% 112%, rgba(74, 222, 128, 0.20), transparent 60%);
+  background-attachment: fixed;
 }
 
 button {
@@ -87,24 +85,33 @@ button {
 
 .dashboard-header h1 {
   font-family: var(--font-thai-serif);
-  font-weight: 400;
-  font-size: 2.1rem;
+  font-weight: 500;
+  font-size: 2.2rem;
   margin: 0;
-  color: var(--color-accent-text);
+  background: linear-gradient(120deg, var(--color-accent), var(--color-accent-2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  filter: drop-shadow(0 0 20px rgba(185, 150, 248, 0.25));
 }
 
 .subtitle {
   margin: 4px 0 0;
   color: var(--color-muted);
+  font-family: var(--font-display);
   font-size: 0.9rem;
+  letter-spacing: 0.02em;
 }
 
 .primary-btn {
-  background: var(--color-brand);
+  background: linear-gradient(135deg, #8b5cf6, #6366f1);
+  box-shadow: 0 12px 32px rgba(139, 92, 246, 0.35);
   color: white;
   border: none;
   border-radius: 14px;
   padding: 16px 24px;
+  font-family: var(--font-display);
   font-size: 1.1rem;
   font-weight: 600;
   width: 100%;
@@ -131,10 +138,18 @@ button {
 
 .stat-value {
   display: block;
-  font-family: var(--font-serif);
+  font-family: var(--font-display);
   font-size: 1.7rem;
-  font-weight: 600;
-  color: var(--color-accent-text);
+  font-weight: 700;
+  color: var(--color-accent);
+}
+
+#stat-learning {
+  color: var(--color-accent-blue);
+}
+
+#stat-mastered {
+  color: var(--color-accent-2);
 }
 
 .stat-label {
@@ -151,8 +166,8 @@ button {
 }
 
 .browse h2 {
-  font-family: var(--font-serif);
-  font-weight: 600;
+  font-family: var(--font-display);
+  font-weight: 700;
   font-size: 1.1rem;
   margin-bottom: 10px;
 }
@@ -169,19 +184,21 @@ button {
   border: 1px solid var(--color-border);
   border-radius: 8px;
   padding: 8px;
+  font-family: var(--font-display);
   font-size: 0.85rem;
   color: var(--color-ink);
   cursor: pointer;
 }
 
 .browse-tab.active {
-  background: var(--color-brand);
+  background: linear-gradient(135deg, #8b5cf6, #6366f1);
   color: white;
-  border-color: var(--color-brand);
+  border-color: transparent;
 }
 
 .browse-list {
   background: var(--color-card);
+  border: 1px solid var(--color-border);
   border-radius: 12px;
   box-shadow: var(--shadow-card);
   overflow: hidden;
@@ -205,7 +222,7 @@ button {
   overflow: hidden;
   font-family: var(--font-thai-serif);
   font-size: 1.3rem;
-  color: var(--color-accent-text);
+  color: var(--color-accent);
   text-align: left;
   white-space: nowrap;
 }
@@ -261,6 +278,7 @@ button {
 
 .card {
   background: var(--color-card);
+  border: 1px solid var(--color-border);
   border-radius: 20px;
   box-shadow: var(--shadow-card);
   width: 100%;
@@ -286,13 +304,15 @@ button {
   font-weight: 400;
   font-size: clamp(100px, 32vw, 160px);
   line-height: 1;
-  color: var(--color-accent-text);
+  color: var(--color-accent);
+  filter: drop-shadow(0 0 36px rgba(185, 150, 248, 0.45));
   transition: font-size 0.15s ease;
 }
 
 .card.flipped .glyph {
   font-size: 2.4rem;
   margin-bottom: 10px;
+  filter: drop-shadow(0 0 16px rgba(185, 150, 248, 0.35));
 }
 
 .glyph.glyph-long {
@@ -318,7 +338,8 @@ button {
 }
 
 .name-romanized {
-  font-family: var(--font-serif);
+  font-family: var(--font-display);
+  font-weight: 500;
   font-size: 1.2rem;
   color: var(--color-ink);
 }
@@ -328,10 +349,11 @@ button {
   margin-top: 4px;
   padding: 3px 12px;
   border-radius: 999px;
-  background: var(--color-bg);
+  background: rgba(185, 150, 248, 0.12);
   border: 1px solid var(--color-border);
+  font-family: var(--font-display);
   font-size: 0.75rem;
-  color: var(--color-accent-text);
+  color: var(--color-accent);
 }
 
 .examples {
@@ -395,11 +417,12 @@ button {
   flex: 1;
   border-radius: 12px;
   padding: 13px 4px;
+  font-family: var(--font-display);
   font-weight: 600;
   font-size: 0.85rem;
   cursor: pointer;
   border: 1.5px solid var(--btn-color);
-  background: color-mix(in srgb, var(--btn-color) 16%, transparent);
+  background: color-mix(in srgb, var(--btn-color) 18%, transparent);
   color: var(--btn-color);
 }
 
@@ -416,9 +439,14 @@ button {
   gap: 16px;
 }
 
+.done-screen p {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+}
+
 @media (min-width: 768px) {
-  html, body {
-    background: var(--color-surround);
+  body {
+    background-color: var(--color-surround);
   }
 
   #dashboard {
@@ -426,6 +454,7 @@ button {
     margin: 40px auto;
     min-height: calc(100vh - 80px);
     background: var(--color-bg);
+    border: 1px solid var(--color-border);
     border-radius: 28px;
     box-shadow: var(--shadow-card);
   }
@@ -441,21 +470,5 @@ button {
 
   .hint-desktop {
     display: block;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-bg: #1b1512;
-    --color-surround: #120e0c;
-    --color-ink: #f2e9e3;
-    --color-muted: #b2a299;
-    --color-card: #2a221d;
-    --color-border: #3c322b;
-    --color-accent-text: #e0896d;
-    --color-again: #e8857a;
-    --color-hard: #d9a94e;
-    --color-good: #9bc17e;
-    --color-easy: #8aa9cc;
   }
 }

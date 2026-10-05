@@ -1,4 +1,4 @@
-const CACHE_NAME = "thai-flashcards-v9";
+const CACHE_NAME = "thai-flashcards-v10";
 
 const PRECACHE_URLS = [
   "./",
@@ -16,8 +16,7 @@ const PRECACHE_URLS = [
   "icons/icon-192.png",
   "icons/icon-512.png",
   "icons/icon-512-maskable.png",
-  "fonts/Lora-Regular.woff2",
-  "fonts/Lora-Italic.woff2",
+  "fonts/SpaceGrotesk-Variable.woff2",
   "fonts/NotoSerifThai-Regular.woff2",
 ];
 
